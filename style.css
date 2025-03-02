@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.calculator {
+  width: 500px;
+  background: #fff;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+
+.display {
+  background: #222;
+  color: #fff;
+  padding: 20px;
+  font-size: 2rem;
+  text-align: right;
+
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding: 10px;
+}
+
+.result {
+  grid-row-start: 2;
+  grid-row-end: 6;
+  grid-column-start: 4;
+  grid-column-end: 5;
+}
+
+button {
+  border: none;
+  padding: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  background: #ddd;
+  transition: 0.3s;
+
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+button:hover {
+  background: #bbb;
+}
+
+.operator {
+  background: #ff8c00;
+  color: white;
+}
+
+.operator:hover {
+  background: #e07b00;
+}
+
+.result {
+  background: #28a745;
+  color: white;
+}
+
+.result:hover {
+  background: #218838;
+}
+
+.reset {
+  background: #dc3545;
+  color: white;
+}
+
+.reset:hover {
+  background: #c82333;
+}
