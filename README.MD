@@ -1,25 +1,17 @@
-<!-- Calculator Project -->
+This project is a simple, interactive calculator built using HTML, CSS, and JavaScript.
 
-<!-- Overview -->
+<!-- Tools & Technologies Used -->
 
--This project is a simple, MacOS-style calculator that allows users to perform basic arithmetic operations with a clean and modern UI.
+HTML: Structured the layout.
+CSS: Styled the calculator with a modern, responsive design.
+JavaScript: Handled the logic for calculations and user interactions.
 
-<!-- Features -->
+<!-- JavaScript Development Approach -->
 
--Supports addition, subtraction, multiplication, and division.
+1. DOM Manipulation: Used document.getElementById and querySelectorAll to select and update elements dynamically.
+2. Event Handling: Attached event listeners to buttons for number inputs, operators, and clearing the display.
+3. State Management: Stored currentValue, previousValue, and operator variables to track calculations.
+4. Calculation Logic: Used an object-based approach (operations object) to perform arithmetic operations efficiently.
+5. User Experience: Ensured smooth functionality with decimal handling, immediate result updates, and a reset function.
 
--Allows users to enter decimal numbers.
-
--Provides instant calculations as users input values.
-
--Includes a clear (reset) button to start fresh.
-
--Responsive design inspired by MacOS Calculator.
-
-<!-- Technologies Used -->
-
--HTML: Defines the structure of the calculator.
-
--CSS: Styles the UI for a modern, MacOS-like appearance.
-
--JavaScript: Handles user input, calculations, and display updates.
+This approach ensures clean, maintainable code while keeping the logic efficient and user-friendly. 🚀
