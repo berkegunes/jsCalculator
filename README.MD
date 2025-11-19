@@ -1,4 +1,4 @@
-https://app.netlify.com/projects/jscalculapp/overview
+https://jscalculapp.netlify.app/
 
 This project is a simple, interactive calculator built using HTML, CSS, and JavaScript.
 
